@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+*{
+    font-size: 1.05em;
+}
+body{
+    background-image: linear-gradient(to bottom, blue, white);
+    height: 99vh;
+}
+div{
+    background-color: blue;
+    width: 75%;
+    min-width: 400px;
+    margin: 5px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Botao{
+    width: 200px;
+    height: 3em;
+    margin-left: 30%;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom,silver, white);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.CaixaEnd{
+    width:55%;
+    min-width: 300px;
+    background-color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.CaixaQuant{
+    width:10%;
+    min-width: 70px;
+    background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+    line-break: anywhere;
 }
